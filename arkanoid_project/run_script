@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo apt-get install docker docker-compose
+sudo docker-compose up -d
+sudo apt-get install python3
+pip3 install pygame
+pip3 install influxdb
+pip3 install pandas
+pip3 install seaborn
+python3 ./py_files/Arkanoid.py
+python3 ./py_files/Visualization.py
